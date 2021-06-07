@@ -1,0 +1,53 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1E2D3B;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 1rem 2rem;
+    background-color: #2E3A46;
+}
+.logo{
+    height: 60px;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5rem;
+    background-color: #2E3A46;
+    width: 16%;
+    padding: 1rem;
+   
+}
+.card>* {
+    margin-bottom: 1rem;
+}
+.card>img{
+    width: 100%;
+    height: 60%;
+}
+.song_title{
+    font-size: 1.5rem ;
+    color: #FFFFFF;
+}
+.author, .year{
+    color: rgb(188, 185, 185);
+}
