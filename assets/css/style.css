@@ -34,20 +34,22 @@ header{
     margin: 1.5rem;
     background-color: #2E3A46;
     width: 16%;
+    min-width: 260px;
     padding: 1rem;
    
 }
-.card>* {
-    margin-bottom: 1rem;
-}
+
 .card>img{
     width: 100%;
-    height: 60%;
+    height: 250px;
+    margin-bottom: 0.8rem;
 }
 .song_title{
-    font-size: 1.5rem ;
+    font-size: 1.4rem ;
     color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 .author, .year{
     color: rgb(188, 185, 185);
+    margin-bottom: 0.6rem;
 }
